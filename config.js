@@ -27,7 +27,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = 'Inc Bot'
-  var sticker_author = 'dibuat oleh Tama'
+  var sticker_author = 'Simple Wabot Buatan Tama'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
