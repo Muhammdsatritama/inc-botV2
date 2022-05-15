@@ -3,7 +3,7 @@ let chalk = require('chalk')
 
 global.owner = ['6282211224927'] // Put your number here
 global.mods = [''] // Want some help?
-global.prems = ['6285856430321','6283838733755','6288237126715'] // Premium user has unlimited limit
+global.prems = ['']// Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -15,7 +15,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'YahahaErlangga',
+  'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'apivinz',
   'https://pencarikode.xyz': 'pais',
@@ -27,7 +27,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = 'Inc Bot'
-  var sticker_author = 'dibuat oleh Tama\nwa.me/6285759022133'
+  var sticker_author = 'dibuat oleh Tama'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
